@@ -16,6 +16,7 @@
 	<link href="<?= base_url(); ?>t_pixeladmin/assets/stylesheets/pages.min.css" rel="stylesheet" type="text/css">
 	<link href="<?= base_url(); ?>t_pixeladmin/assets/stylesheets/rtl.min.css" rel="stylesheet" type="text/css">
 	<link href="<?= base_url(); ?>t_pixeladmin/assets/stylesheets/themes.min.css" rel="stylesheet" type="text/css">
+	<link href="<?= base_url() ?>assets/css/parsley.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -70,10 +71,11 @@
 <!-- Pixel Admin's javascripts -->
 <script src="<?= base_url(); ?>t_pixeladmin/assets/javascripts/bootstrap.min.js"></script>
 <script src="<?= base_url(); ?>t_pixeladmin/assets/javascripts/pixel-admin.min.js"></script>
+<script src="<?= base_url(); ?>assets/js/parsley.js"></script>
 
 <script type="text/javascript">
 //----- Base URL:
-	const myBaseURL = '<?php echo base_url(); ?>';
+	const myBaseURLxxx = '<?php echo base_url(); ?>';
 </script>
 
 <?php if(isset($js_file)){ $this->load->view($js_file); } ?>
